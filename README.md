@@ -12,5 +12,14 @@ We simulated all biological scenarios described in the literature:
 [QuagmiR benchmark scripts](https://github.com/Gu-Lab-RBL-NCI/simulate-miRNA-reads)
 [QuagmiR simulated reads](https://github.com/Gu-Lab-RBL-NCI/simulate-miRNA-reads/tree/master/SimulatedReads)
 
+| Fastq file    | IsomiR assessed    |
+| ------------- |:------------------:|
+| gainRand_3p   | 3' tailoring       |
+| gainTemp_3p   | 3' miscleavage     |
+| lossRand_3p   | 3' trimming        |
+| gainTemp_5p   | 5' miscleavage gain|
+| lossRand_5p   | 5' miscleavage loss|
+
+
 ### Acknowledgements:
 [S. Nesic](https://github.com/snesic) who modified previous scripts from [L. Pantano](https://github.com/lpantano/mypubs/tree/master/mirna/mirannotation) and run the analysis on QuagmiR and other miRNA aligners.
