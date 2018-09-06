@@ -9,8 +9,8 @@ We simulated all biological scenarios described in the literature:
 ![Example modifications bechmarked](https://raw.githubusercontent.com/Gu-Lab-RBL-NCI/QuagmiR/master/doc/bench.png)
 
 ### Code:
-*[QuagmiR benchmark scripts](https://github.com/Gu-Lab-RBL-NCI/simulate-miRNA-reads)
-*[QuagmiR simulated reads](https://github.com/Gu-Lab-RBL-NCI/simulate-miRNA-reads/tree/master/SimulatedReads)
+* [QuagmiR benchmark scripts](https://github.com/Gu-Lab-RBL-NCI/simulate-miRNA-reads)
+* [QuagmiR simulated reads](https://github.com/Gu-Lab-RBL-NCI/simulate-miRNA-reads/tree/master/SimulatedReads)
 
 | Fastq file    | IsomiR assessed    |
 | ------------- |:------------------:|
