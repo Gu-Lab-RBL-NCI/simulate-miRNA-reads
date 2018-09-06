@@ -21,7 +21,7 @@ We simulated all biological scenarios described in the literature:
 | lossRand_5p   | 5' miscleavage loss|
 
 ### Benchmark parameters:
-## miraligner
+##### miraligner
 ```
 -trim 3 -sub 1 -add 3 -s hsa
  ```
