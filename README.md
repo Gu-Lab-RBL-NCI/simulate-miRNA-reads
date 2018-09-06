@@ -28,7 +28,7 @@ We simulated all biological scenarios described in the literature:
 Run parameters as listed [here](https://github.com/lpantano/mypubs/blob/master/mirna/mirannotation/mirannotation.sh).
 Aligned to miRBase21 human hairpin and .str file as references.
 
-## razerS3
+##### razerS3
 ```
 -i 80 --unique -rr 90
 ```
@@ -36,23 +36,23 @@ Similar parameters to those used [here](https://github.com/lpantano/mypubs/blob/
 The only difference is that we used --unique to make sure that reads are only aligned to one miRNA.
 Aligned to human hairpin.
 
-## microRazerS
+##### microRazerS
 ```
 -sL 16 -sE
 ```
 Similar parameters to those used [here](https://github.com/lpantano/mypubs/blob/master/mirna/mirannotation/mirannotation.sh), but we added -sE to allow a mismatch in the prefix seed.
 We aligned to human hairpin.
 
-## STAR 
+##### STAR 
 Default parameters and aligned to human hairpin.
 
-## sRNAbench
+##### sRNAbench
 ```
 microRNA=hsa minRC=1
 ```
 Aligned to human hairpin, mirna and index and SeqOBJ both built from hg19.
 
-## QuagmiR
+##### QuagmiR
 ```
 ambiguous_letters: True
 destructive_motif_pull: True
