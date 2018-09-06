@@ -20,6 +20,45 @@ We simulated all biological scenarios described in the literature:
 | gainTemp_5p   | 5' miscleavage gain|
 | lossRand_5p   | 5' miscleavage loss|
 
+### Benchmark parameters:
+## miraligner
+```
+-trim 3 -sub 1 -add 3 -s hsa
+ ```
+Run parameters as listed [here](https://github.com/lpantano/mypubs/blob/master/mirna/mirannotation/mirannotation.sh).
+Aligned to miRBase21 human hairpin and .str file as references.
+
+## razerS3
+```
+-i 80 --unique -rr 90
+```
+Similar parameters to those used [here](https://github.com/lpantano/mypubs/blob/master/mirna/mirannotation/mirannotation.sh). 
+The only difference is that we used --unique to make sure that reads are only aligned to one miRNA.
+Aligned to human hairpin.
+
+## microRazerS
+```
+-sL 16 -sE
+```
+Similar parameters to those used [here](https://github.com/lpantano/mypubs/blob/master/mirna/mirannotation/mirannotation.sh), but we added -sE to allow a mismatch in the prefix seed.
+We aligned to human hairpin.
+
+## STAR 
+Default parameters and aligned to human hairpin.
+
+## sRNAbench
+```
+microRNA=hsa minRC=1
+```
+Aligned to human hairpin, mirna and index and SeqOBJ both built from hg19.
+
+## QuagmiR
+```
+ambiguous_letters: True
+destructive_motif_pull: True
+```
+The rest were default parameters.
+
 
 ### Acknowledgements:
 [S. Nesic](https://github.com/snesic) who modified previous scripts from [L. Pantano](https://github.com/lpantano/mypubs/tree/master/mirna/mirannotation) and run the analysis on QuagmiR and other miRNA aligners.
